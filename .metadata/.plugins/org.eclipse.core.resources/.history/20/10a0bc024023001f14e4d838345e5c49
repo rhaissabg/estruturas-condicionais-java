@@ -1,0 +1,26 @@
+package lacos.condicionais;
+
+import java.util.Scanner;
+
+public class DefinirAnimais {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String vertebradoOuNao, classeDoAnimal, alimentacao;
+		
+		System.out.println("O animal é vertebrado ou invertebrado? ");
+		vertebradoOuNao = sc.nextLine();
+		
+		System.out.println("O animal é ave, mamífero, inseto ou anelídeo? ");
+		classeDoAnimal = sc.nextLine();
+		
+		System.out.println("O animal é carnívoro, onívoro, herbívoro ou hematófago? ");
+		alimentacao = sc.nextLine();
+		
+		sc.close();
+
+	}
+
+}

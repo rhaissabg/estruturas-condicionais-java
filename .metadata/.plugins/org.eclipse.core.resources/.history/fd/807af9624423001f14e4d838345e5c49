@@ -1,0 +1,67 @@
+package lacos.condicionais;
+
+import java.util.Scanner;
+
+public class CodigoItem {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int codigoProduto, quantidadeProduto;
+		String produto;
+		float precoProduto, valorTotal;
+		
+		System.out.println("Código do produto: ");
+		codigoProduto = sc.nextInt();
+		
+		System.out.println("Quantidade: ");
+		quantidadeProduto = sc.nextInt();
+		
+		switch (codigoProduto) {
+		
+		case 1:
+			produto = "Cachorro Quente";
+			precoProduto = 10f;
+			break;
+		
+		case 2: 
+			produto = "X-Salada";
+			precoProduto = 15.00;
+			break;
+		
+		case 3:
+			produto = "X-Bacon";
+			precoProduto = 18.00;
+			break;
+		
+		case 4:
+			produto = "Bauru";
+			precoProduto = 12.00;
+			break;
+		
+		case 5:
+			produto = "Refrigerante";
+			precoProduto = 8.00;
+			break;
+		
+		case 6:
+			produto = "Suco de Laranja";
+			precoProduto = 13.00;
+			break;
+		
+		default:
+			System.out.println("Código inválido!");
+			
+		}
+		
+		valorTotal = (float) quantidade * precosProduto;
+		
+		System.out.printf("Produto: %s", produto);
+		System.out.printf("Valor total: %.2f%n", valorTotal);
+		
+		sc.close();
+		
+	}
+	
+}

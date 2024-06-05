@@ -1,0 +1,30 @@
+package lacos.condicionais;
+
+import java.util.Scanner;
+
+public class ContaBancaria {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int codigoOperacao;
+		String operacao; 
+		float valor;
+		
+		System.out.println("Operação: ");
+		System.out.println("[1] Saldo");
+		System.out.println("[2] Saque");
+		System.out.println("[3] Depósito");
+		codigoOperacao = sc.nextInt();
+		
+		if (codigoOperacao !== 1) {
+			System.out.println("Valor: ");
+			valor = sc.nextFloat();
+		}
+		
+		sc.close();
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package lacos_condicionais;
+
+public class LerTresNumeros {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

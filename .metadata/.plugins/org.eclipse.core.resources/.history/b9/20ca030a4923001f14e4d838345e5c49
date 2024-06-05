@@ -1,0 +1,37 @@
+package lacos.condicionais;
+
+import java.util.Scanner;
+
+public class CargoColaborador {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int codigoCargo, reajuste = 1;
+		String cargo = null;
+		double salario, salarioReajustado;
+		
+		System.out.println("Digite o código do cargo: ");
+		System.out.println("[1] Gerente");
+		System.out.println("[2] Vendedor");
+		System.out.println("[3] Supervisor");
+		System.out.println("[4] Motorista");
+		System.out.println("[5] Estoquista");
+		System.out.println("[6] Técnico de TI");
+		codigoCargo = sc.nextInt();
+		
+		switch (codigoCargo) {
+		
+		case 1:
+			cargo = "Gerente";
+			reajuste = 0.1;
+			
+		}
+		
+		
+		sc.close();
+		
+	}
+	
+}

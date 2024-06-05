@@ -1,0 +1,21 @@
+package lacos.condicionais;
+
+import java.util.Scanner;
+
+public class CodigoItem {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int codigoProduto, quantidadeProduto;
+		String produto;
+		float precoProduto;
+		
+		
+		
+		sc.close();
+		
+	}
+	
+}

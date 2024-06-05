@@ -1,0 +1,20 @@
+package lacos.condicionais;
+
+import java.util.Scanner;
+
+public class CargoColaborador {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int codigoCargo, reajuste;
+		String cargo;
+		double salario, salarioReajustado;
+		
+		
+		sc.close();
+		
+	}
+	
+}
